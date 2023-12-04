@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import Social from "../SocialTwo";
 import { NavLink } from "react-router-dom";
+import { SocialIcon } from 'react-social-icons'
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -42,10 +43,10 @@ const Header = () => {
                 <a href="#about">About</a>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolio">Projects</a>
               </li>
               <li>
-                <a href="#news">News</a>
+                <a href="#news">References</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
@@ -55,9 +56,9 @@ const Header = () => {
                   className="white-fill-bg btn-outline btn_sm"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://themeforest.net/item/shane-react-personal-portfolio-template/32642263"
+                  href="https://www.linkedin.com/in/josh-goldenberg-252416a1/"
                 >
-                  Buy Now
+                  Connect <SocialIcon className="connect-icon" style={{ height: '30px', marginLeft: "0px" }} url="https://www.linkedin.com"/>
                 </a>
               </li>
             </Scrollspy>

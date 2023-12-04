@@ -1,9 +1,9 @@
 import React from "react";
 import Preview from "../views/Preview";
-import HomeOne from "../views/all-home-version/HomeOne";
-import HomeTwo from "../views/all-home-version/HomeTwo";
+// import HomeOne from "../views/all-home-version/HomeOne";
+// import HomeTwo from "../views/all-home-version/HomeTwo";
 import HomeThree from "../views/all-home-version/HomeThree";
-import HomeFour from "../views/all-home-version/HomeFour";
+// import HomeFour from "../views/all-home-version/HomeFour";
 import NotFound from "../views/NotFound";
 import { Routes, Route } from "react-router-dom";
 
@@ -11,7 +11,6 @@ const AllRouter = () => {
   return (
     <>
       <Routes>
-
         <Route path="/" element={<HomeThree />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
