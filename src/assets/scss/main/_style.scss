@@ -503,7 +503,7 @@ h6 {
 
 .shane_tm_topbar .topbar_inner .logo a {
   display: inline-block;
-  max-width: 300px;
+  max-width: 280px;
 }
 
 // .shane_tm_topbar .topbar_inner .logo {
@@ -661,6 +661,9 @@ h6 {
   line-height: 1.2;
   display: inline-block;
   overflow: hidden;
+}
+.shane_tm_hero .content h3 p {
+  font-size: 65px;
 }
 .shane_tm_hero .content h3 span {
   color: transparent;
@@ -1531,7 +1534,7 @@ ul.react-tabs__tab-list {
 .shane_tm_testimonials .right .short .job {
   font-weight: 400;
   display: block;
-  font-size: 15px;
+  font-size: 17px;
 }
 .shane_tm_testimonials .right .short .author span,
 .shane_tm_testimonials .right .short .job span {
@@ -1879,7 +1882,7 @@ body.modal {
 }
 .white-fill-bg {
   text-decoration: none;
-  color: #000;
+  color: #027fb1;
   background-color: #fff;
   display: inline-block;
   padding: 15px 48px;
@@ -2632,6 +2635,7 @@ body.dark .shane_tm_settings .cursor li .svg,
   padding-top: 10px;
   padding-bottom: 20px;
 }
+
 .shane_tm_intro .hero p {
   font-family: "Poppins";
   font-weight: 500;
@@ -2842,6 +2846,9 @@ body.dark .shane_tm_settings .cursor li .svg,
   }
   .shane_tm_hero .content h3 {
     font-size: 35px;
+  }
+  .shane_tm_hero .content h3 p {
+    font-size: 30px;
   }
   .shane_tm_about .about_inner {
     flex-direction: column;
@@ -3228,10 +3235,11 @@ body.intro .loader_line:after {
 .home-three,
 .home-three {
   .white-fill-bg.btn_sm {
-    border-color: #555 !important;
+    border-color: #027fb1 !important;
+    color: #027fb1;
     &:hover {
-      border-color: #000 !important;
-      background: #000 !important;
+      border-color: #027fb1 !important;
+      background: #027fb1 !important;
       color: #fff !important;
     }
   }
