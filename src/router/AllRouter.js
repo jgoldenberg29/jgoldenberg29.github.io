@@ -11,11 +11,8 @@ const AllRouter = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Preview />} />
-        <Route path="/home-one" element={<HomeOne />} />
-        <Route path="/home-two" element={<HomeTwo />} />
-        <Route path="/home-three" element={<HomeThree />} />
-        <Route path="/home-four" element={<HomeFour />} />
+
+        <Route path="/" element={<HomeThree />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
