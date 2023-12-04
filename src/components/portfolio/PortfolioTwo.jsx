@@ -2,19 +2,19 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Gallery, Item } from "react-photoswipe-gallery";
 
-const tabList = ["All", "Design", "Branding", "Photography"];
+const tabList = ["All", "React", "Python/Flask", "JavaScriptExpress"];
 
 const tabListContent = [
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/1.jpg",
+        img: "/img/portfolio/moodify.jpg",
         title: " My Story",
         meta: "Design",
         portfolioLink: "https://www.instagram.com/",
       },
       {
-        img: "/img/portfolio/2.jpg",
+        img: "/img/portfolio/whipitup.jpg",
         title: "Design Trend",
         meta: "Branding",
         portfolioLink:
@@ -114,7 +114,7 @@ const Portfolio = () => {
               <div className="title_flex">
                 <div className="left">
                   <span>Portfolio</span>
-                  <h3>Creative Portfolio</h3>
+                  <h3>Project Portfolio</h3>
                 </div>
               </div>
             </div>
