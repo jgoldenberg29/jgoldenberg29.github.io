@@ -22,12 +22,6 @@ const partnerList = [
   { img: "npm", animationDealay: "208" },
 ];
 
-// const partnerList = [
-
-//   "devicon-redux-original colored",
-
-// ]
-
 export default function BrandAnimation() {
   var settings = {
     dots: false,
@@ -39,7 +33,15 @@ export default function BrandAnimation() {
     speed: 2000,
     responsive: [
       {
-        breakpoint: 420,
+        breakpoint: 770,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 2,
+          speed: 1000
+        },
+      },
+      {
+        breakpoint: 460,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
