@@ -2,106 +2,105 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Gallery, Item } from "react-photoswipe-gallery";
 
-const tabList = ["All", "React", "Python/Flask", "JavaScriptExpress"];
+const tabList = ["All", "React", "Python/Flask"]; //add JavaScript/Express
 
 const tabListContent = [
   {
     porftoliItems: [
       {
         img: "/img/portfolio/moodify.jpg",
-        title: " My Story",
-        meta: "Design",
-        portfolioLink: "https://www.instagram.com/",
+        title: "Visit Site",
+        meta: "Music",
+        portfolioLink: "https://moodify-s91r.onrender.com/",
       },
       {
         img: "/img/portfolio/whipitup.jpg",
-        title: "Design Trend",
-        meta: "Branding",
+        title: "Visit Site",
+        meta: "Cooking",
         portfolioLink:
-          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+          "https://whipitup.onrender.com/",
+      },
+      // {
+      //   img: "/img/portfolio/14.jpg",
+      //   title: "Soft Cream",
+      //   meta: "Photography",
+      //   portfolioLink:
+      //     "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
+      // },
+      // {
+      //   img: "/img/portfolio/22.jpg",
+      //   title: "Shane Design",
+      //   meta: "Design",
+      //   portfolioLink:
+      //     "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
+      // },
+      // {
+      //   img: "/img/portfolio/7.jpg",
+      //   title: " Sweet Cherry",
+      //   meta: "Photography",
+      //   portfolioLink:
+      //     "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+      // },
+      // {
+      //   img: "/img/portfolio/3.jpg",
+      //   title: "Behance Shoot",
+      //   meta: "Branding",
+      //   portfolioLink: "https://www.behance.net/ib-themes",
+      // },
+    ],
+  },
+  {
+    porftoliItems: [
+      {
+        img: "/img/portfolio/moodify.jpg",
+        title: "Visit Site",
+        meta: "Music",
+        portfolioLink: "https://moodify-s91r.onrender.com/",
       },
       {
-        img: "/img/portfolio/14.jpg",
-        title: "Soft Cream",
-        meta: "Photography",
+        img: "/img/portfolio/whipitup.jpg",
+        title: "Visit Site",
+        meta: "Cooking",
         portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
-      },
-      {
-        img: "/img/portfolio/22.jpg",
-        title: "Shane Design",
-        meta: "Design",
-        portfolioLink:
-          "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/7.jpg",
-        title: " Sweet Cherry",
-        meta: "Photography",
-        portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/3.jpg",
-        title: "Behance Shoot",
-        meta: "Branding",
-        portfolioLink: "https://www.behance.net/ib-themes",
+          "https://whipitup.onrender.com/",
       },
     ],
   },
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/22.jpg",
-        title: "Shane Design",
-        meta: "Design",
-        portfolioLink:
-          "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
+        img: "/img/portfolio/moodify.jpg",
+        title: "Visit Site",
+        meta: "Music",
+        portfolioLink: "https://moodify-s91r.onrender.com/",
       },
       {
-        img: "/img/portfolio/7.jpg",
-        title: " Sweet Cherry",
-        meta: "Photography",
+        img: "/img/portfolio/whipitup.jpg",
+        title: "Visit Site",
+        meta: "Cooking",
         portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+          "https://whipitup.onrender.com/",
       },
     ],
   },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/1.jpg",
-        title: " My Story",
-        meta: "Design",
-        portfolioLink: "https://www.instagram.com/",
-      },
-      {
-        img: "/img/portfolio/2.jpg",
-        title: "Design Trend",
-        meta: "Branding",
-        portfolioLink:
-          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
-      },
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/7.jpg",
-        title: " Sweet Cherry",
-        meta: "Photography",
-        portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/15.jpg",
-        title: "Soft Cream",
-        meta: "Photography",
-        portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
-      },
-    ],
-  },
+  // {
+  //   porftoliItems: [
+  //     {
+  //       img: "/img/portfolio/7.jpg",
+  //       title: " Sweet Cherry",
+  //       meta: "Photography",
+  //       portfolioLink:
+  //         "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+  //     },
+  //     {
+  //       img: "/img/portfolio/15.jpg",
+  //       title: "Soft Cream",
+  //       meta: "Photography",
+  //       portfolioLink:
+  //         "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
+  //     },
+  //   ],
+  // },
 ];
 
 const Portfolio = () => {
