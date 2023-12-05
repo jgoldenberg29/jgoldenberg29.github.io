@@ -31,7 +31,7 @@ const AboutThree = () => {
                   data-aos-duration="1200"
                 >
                   <span>About Me</span>
-                  <h3>Creative Software Engineer based in New York, USA</h3>
+                  <h3>Insatiable Software Engineer based in Philadelphia, PA</h3>
                 </div>
                 <div
                   className="text"
@@ -39,11 +39,7 @@ const AboutThree = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I'm web designer, and I'm very passionate and dedicated to
-                    my work. With 20 years experience as a professional web
-                    developer, I have acquired the skills and knowledge
-                    necessary to make your project a success. I enjoy every step
-                    of the design process, from discussion and collaboration.
+                    As a software engineer, I am always on a journey of growth. It challenges me every day. It feeds my passions for solving puzzles and finding patterns. Putting each piece into place, writing each line, solving each bug, I can feel the project coming to life. The only thing that drives me more is the potential to affect positive change in the world around me. And with development, I can have have it all.
                   </p>
                 </div>
                 <div
