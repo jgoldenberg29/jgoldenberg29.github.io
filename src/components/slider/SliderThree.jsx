@@ -7,7 +7,7 @@ const Slider = () => {
         <div className="background">
           <div
             className="image"
-            style={{ backgroundImage: "url(img/slider/1.jpg)" }}
+            style={{ backgroundImage: "url(img/slider/home.jpg)" }}
           ></div>
         </div>
         {/* End .background */}

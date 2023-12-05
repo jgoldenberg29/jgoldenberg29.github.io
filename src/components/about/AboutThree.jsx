@@ -39,7 +39,7 @@ const AboutThree = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I have always loved learning. As a software engineer, I am always on a journey of growth. It challenges me every day. It feeds my passion for solving puzzles and finding patterns. Putting each piece into place, writing each line, solving each bug, I can feel the project coming to life. The only thing that drives me more is the potential to affect positive change in the world around me. And with development, I can have have it all.
+                    As a software engineer, I am always on a journey of growth. It challenges me every day. It feeds my passions for solving puzzles and finding patterns. Putting each piece into place, writing each line, solving each bug, I can feel the project coming to life. The only thing that drives me more is the potential to affect positive change in the world around me. And with development, I can have have it all.
                   </p>
                 </div>
                 <div
