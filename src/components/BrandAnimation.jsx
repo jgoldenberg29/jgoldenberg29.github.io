@@ -4,23 +4,37 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const partnerList = [
-  { img: "1", animationDealay: "" },
-  { img: "2", animationDealay: "30" },
-  { img: "3", animationDealay: "60" },
-  { img: "4", animationDealay: "90" },
-  { img: "5", animationDealay: "120" },
-  { img: "6", animationDealay: "150" },
-  { img: "7", animationDealay: "180" },
-  { img: "8", animationDealay: "210" },
+  { img: "react", animationDealay: "13" },
+  { img: "js", animationDealay: "26" },
+  { img: "python", animationDealay: "39" },
+  { img: "redux", animationDealay: "52" },
+  { img: "flask", animationDealay: "65" },
+  { img: "sqlalchemy", animationDealay: "78" },
+  { img: "express", animationDealay: "91" },
+  { img: "sequelize", animationDealay: "104" },
+  { img: "postgres", animationDealay: "117" },
+  { img: "sqlite", animationDealay: "130" },
+  { img: "docker", animationDealay: "143" },
+  { img: "aws", animationDealay: "156" },
+  { img: "html5", animationDealay: "169" },
+  { img: "css", animationDealay: "182" },
+  { img: "node", animationDealay: "195" },
+  { img: "npm", animationDealay: "208" },
 ];
+
+// const partnerList = [
+
+//   "devicon-redux-original colored",
+
+// ]
 
 export default function BrandAnimation() {
   var settings = {
     dots: false,
     arrow: false,
     infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToShow: 6,
+    slidesToScroll: 3,
     autoplay: true,
     speed: 2000,
     responsive: [
@@ -28,6 +42,8 @@ export default function BrandAnimation() {
         breakpoint: 420,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 1,
+          speed: 1000
         },
       },
     ],
