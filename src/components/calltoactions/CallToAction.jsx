@@ -106,7 +106,7 @@ const CallToAction = () => {
                         alt="phone"
                       />
                       <p>
-                        <a href="tel:+77 033 442 55 57">+77 033 442 55 57</a>
+                        <a href="tel:215 869 2852">215 869 2852</a>
                       </p>
                     </div>
                   </li>

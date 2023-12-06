@@ -46,7 +46,7 @@ const Header = () => {
                 <a href="#portfolio">Projects</a>
               </li>
               <li>
-                <a href="#news">References</a>
+                <a href="#news">Testimonials</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
@@ -115,12 +115,12 @@ const Header = () => {
                 </li>
                 <li>
                   <a href="#portfolio" onClick={handleClick}>
-                    Portfolio
+                    Projects
                   </a>
                 </li>
                 <li>
                   <a href="#news" onClick={handleClick}>
-                    News
+                    Testimonials
                   </a>
                 </li>
                 <li>
@@ -135,7 +135,7 @@ const Header = () => {
                     rel="noreferrer"
                     href="https://themeforest.net/"
                   >
-                    Buy Now
+                    Connect <SocialIcon className="connect-icon" style={{ height: '24px', marginLeft: "0px" }} url="https://www.linkedin.com"/>
                   </a>
                 </li>
               </ul>

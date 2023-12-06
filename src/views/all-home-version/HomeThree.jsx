@@ -29,7 +29,7 @@ const HomeThree = () => {
       <Skills />
       {/* End Skills Section */}
 
-      <Video />
+      {/* <Video /> */}
       {/* End Video Section */}
 
       <div className="shane_tm_section">
@@ -50,7 +50,7 @@ const HomeThree = () => {
               <div className="left" data-aos="fade-up" data-aos-duration="1200">
                 <div className="shane_tm_title">
                   <span>Testimonials</span>
-                  <h3>What clients say about my portfolio template</h3>
+                  <h3>What colleagues say about me</h3>
                 </div>
               </div>
 
