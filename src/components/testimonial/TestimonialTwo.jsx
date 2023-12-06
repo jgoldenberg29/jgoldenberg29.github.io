@@ -19,10 +19,7 @@ export default function TestimonialTwo() {
         <li className="item">
           <div className="texts">
             <p>
-              We were looking for a logo with a touch of modernism. Arlo grasped
-              our needs and produced a stunning design. Awesome to work with
-              Arlo. Incredibly organized, easy to communicate with, responsive
-              with next iterations.
+            I once joked that Josh's back must be sore from carrying me all the time, but a lot of truth is said in jest. Josh grasps concepts quickly and is not satisfied with surface-level explanations; he digs deep to find answers and excels at problem-solving. His upbeat personality, eagerness to learn, and willingness to help others easily separate him from the crowd, and Josh quickly became my "Go-To" whenever I needed another set of eyes for debugging or finding an alternate solution. He'll be an asset on any Team lucky enough to have him, and I have no doubt he will be successful in his future endeavors!
             </p>
             <div className="author">
               <div className="image">
@@ -30,17 +27,17 @@ export default function TestimonialTwo() {
                   className="main"
                   style={{
                     backgroundImage: `url(${
-                      process.env.PUBLIC_URL + "img/about/1.jpg"
+                      process.env.PUBLIC_URL + "img/about/Lan.jpeg"
                     })`,
                   }}
                 ></div>
               </div>
               <div className="short">
                 <h3 className="author">
-                  <span>Justin Bieber</span>
+                  <span>Nolan Oribello</span>
                 </h3>
                 <h3 className="job">
-                  <span>Photographer</span>
+                  <span>Software Developer</span>
                 </h3>
               </div>
             </div>
