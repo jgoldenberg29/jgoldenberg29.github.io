@@ -1980,11 +1980,24 @@ body.modal {
   padding: 50px 0px;
 }
 .shane_tm_copyright .inner {
+  display: flex;
+  color: white;
+  justify-content: space-around;
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   text-align: center;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+}
+.shane_tm_copyright .inner .list_inner .fa-regular{
+  color: white;
+  font-size: 16px;
+}
+.shane_tm_copyright .inner .list_inner .copied{
+  color: rgb(0, 162, 255);
 }
 .shane_tm_copyright p {
   font-family: "Poppins";
