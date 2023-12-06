@@ -135,8 +135,8 @@ const Header = () => {
                   <a
                     className="white-fill-bg btn-outline btn_sm"
                     target="_blank"
-                    rel="noreferrer"
-                    href="https://themeforest.net/"
+                    rel="noopener noreferrer"
+                    href="https://www.linkedin.com/in/josh-goldenberg-252416a1/"
                   >
                     Connect <SocialIcon className="connect-icon" style={{ height: '24px', marginLeft: "0px" }} url="https://www.linkedin.com"/>
                   </a>

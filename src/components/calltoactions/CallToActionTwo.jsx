@@ -3,6 +3,7 @@ import Modal from "react-modal";
 import Map from "../Map";
 import Contact from "../Contact";
 import Social from "../Social";
+import { SocialIcon } from 'react-social-icons'
 
 Modal.setAppElement("#root");
 
@@ -45,9 +46,16 @@ const CallToActionTwo = () => {
             data-aos-duration="1200"
             data-aos-delay="100"
           >
-            <button className="white-fill-bg" onClick={toggleModalOne}>
-              Contact
-            </button>
+            {/* <button className="white-fill-bg" onClick={toggleModalOne}> */}
+                  <a
+                    className="white-fill-bg connect-call-to-action"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.linkedin.com/in/josh-goldenberg-252416a1/"
+                  >
+                    Connect <SocialIcon className="connect-icon" style={{ height: '24px', marginLeft: "0px" }} url="https://www.linkedin.com"/>
+                  </a>
+            {/* </button> */}
           </div>
         </div>
         {/* End talk_inner */}
@@ -122,7 +130,7 @@ const CallToActionTwo = () => {
                     <div className="list_inner">
                       <img
                         className="svg"
-                        src="img/svg/share.svg"
+                        src="img/svg/email.png"
                         alt="share"
                       />
                       <Social />
