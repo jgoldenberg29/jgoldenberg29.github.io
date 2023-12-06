@@ -45,7 +45,7 @@ export default function TestimonialTwo() {
         </li>
         {/* End single slide item */}
 
-        <li className="item">
+        {/* <li className="item">
           <div className="texts">
             <p>
               I purchased the theme a few weeks ago. I had some issues with the
@@ -74,10 +74,10 @@ export default function TestimonialTwo() {
               </div>
             </div>
           </div>
-        </li>
+        </li> */}
         {/* End single slide item */}
 
-        <li className="item">
+        {/* <li className="item">
           <div className="texts">
             <p>
               Really the Code, Support, and design are awesome and its good
@@ -106,7 +106,7 @@ export default function TestimonialTwo() {
               </div>
             </div>
           </div>
-        </li>
+        </li> */}
         {/* End single slide item */}
       </Slider>
     </ul>
