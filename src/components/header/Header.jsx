@@ -32,9 +32,9 @@ const Header = () => {
           <div className="menu">
             <Scrollspy
               className="anchor_nav"
-              items={["home", "about", "portfolio", "news", "contact"]}
+              items={["home", "about", "portfolio", "testimonials", "personal", "contact"]}
               currentClassName="current"
-              offset={-200}
+              offset={-800}
             >
               <li>
                 <a href="#home">Home</a>
@@ -46,7 +46,10 @@ const Header = () => {
                 <a href="#portfolio">Projects</a>
               </li>
               <li>
-                <a href="#news">Testimonials</a>
+                <a href="#testimonials">Testimonials</a>
+              </li>
+              <li>
+                <a href="#personal">Personal</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
@@ -132,8 +135,8 @@ const Header = () => {
                   <a
                     className="white-fill-bg btn-outline btn_sm"
                     target="_blank"
-                    rel="noreferrer"
-                    href="https://themeforest.net/"
+                    rel="noopener noreferrer"
+                    href="https://www.linkedin.com/in/josh-goldenberg-252416a1/"
                   >
                     Connect <SocialIcon className="connect-icon" style={{ height: '24px', marginLeft: "0px" }} url="https://www.linkedin.com"/>
                   </a>

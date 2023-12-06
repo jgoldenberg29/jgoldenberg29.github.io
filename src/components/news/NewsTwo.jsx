@@ -20,7 +20,7 @@ const NewsTwo = () => {
   }
 
   return (
-    <div className="shane_tm_section" id="news">
+    <div className="shane_tm_section" id="personal">
       <div className="shane_tm_news">
         <div className="container">
           <div className="shane_tm_title">
@@ -38,7 +38,7 @@ const NewsTwo = () => {
                       className="main"
                       style={{
                         backgroundImage: `url(${
-                          process.env.PUBLIC_URL + "img/news/4.jpg"
+                          process.env.PUBLIC_URL + "img/news/travel.jpg"
                         })`,
                       }}
                     ></div>
@@ -77,7 +77,7 @@ const NewsTwo = () => {
                               className="main"
                               style={{
                                 backgroundImage: `url(${
-                                  process.env.PUBLIC_URL + "img/news/4.jpg"
+                                  process.env.PUBLIC_URL + "img/news/travel.jpg"
                                 })`,
                               }}
                             ></div>
@@ -95,20 +95,11 @@ const NewsTwo = () => {
                           {/* End details */}
                           <div className="description">
                             <p>
-                              As Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities. As
-                              Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities. As
-                              Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities.
+                             {/* A few months before my twenty-fourth birthday, I felt strong need for a change of pace. After some deliberation, I  chose embark on a journey to New Zealnd. I split my first few months bewteen working on a vineyard and a dairy farm and taking in stunning landscapes. At the end of my third month, as I ascended a mountain near Queenstown, a serendipitous encounter altered the course of my travels. On the other side of the world, sitting on a bench overlooking the Southern Alps sat a woman who'd grown up just a few hours away from my home. After a short lunch, we continued the hike together and had dinner to celebrate. Our connection was so strong and immediate, we decided to exlpore the wonders of New Zealands South Island together... and then the North Island... and then South East Asia...and then for the next 2+ years we travelled to 15 more countries. (We got married in November, 2019!) */}
+                              {/* I have always loved exploring. I love being outdoors especially breathing in cool mountain air. I spent almost three years from 2016-2019 traveling to almost 20 different countries all over the world. I met my now wife while I was on my first stop, spending the better part of a year in New Zealand. Those three years encountering different cultures and environments, I had some of the most formative experiences. Each moment provided a unique perspective, unveiling aspects of life and myself that I hadn't known I was searching for. It taught me to look at the world differently, to listen and observe more, to appreciate new and different perspectives from my own, how to better handle stress, how to think through and make decisions, how bounce back from making the wrong choice and how to work together with another person and manage life as a team. */}
+                              I have always loved exploring. I enjoy being outdoors, especially breathing in the cool mountain air. I spent almost three years, from 2016 to 2019, traveling to nearly 20 different countries all over the world. I met my now-wife while I was on my first stop, spending the better part of a year in New Zealand. During those three years, encountering different cultures and environments, I had some of my the most formative experiences of my life. Each moment provided a unique perspective, unveiling aspects of life and myself that I hadn't known I was searching for. It taught me to look at the world differently, to listen and observe more, to appreciate new and different perspectives from my own, how to better handle stress, how to think through and make decisions, how to learn and bounce back from making the wrong decision, and how to work together with another person and manage life as a team. I owe so much of my current happiness to that initial decision fly to the other side of the world.
                             </p>
-                            <blockquote>
+                            {/* <blockquote>
                               As Vintage decided to have a closer look into
                               fast-paced New York web design realm in person. As
                               Vintage decided to have a closer look into
@@ -119,32 +110,16 @@ const NewsTwo = () => {
                               fast-paced New York web design realm in person, we
                               get to acquaint with most diverse and
                               exceptionally captivating personalities.
-                            </blockquote>
+                            </blockquote> */}
                             <p>
-                              As Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities. We
-                              encounter professionals with careers to covet and
-                              lives to write books about. As Vintage decided to
-                              have a closer look into fast-paced New York web
-                              design realm in person, we get to acquaint with
-                              most diverse and exceptionally captivating
-                              personalities. As Vintage decided to have a closer
-                              look into fast-paced New York web design realm in
-                              person, we get to acquaint with most diverse and
-                              exceptionally captivating personalities. As
-                              Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities.
+
                             </p>
                           </div>
                           {/* End description */}
-                          <div className="news_share">
-                            <Social />
+                          {/* <div className="news_share"> */}
+                            {/* <Social /> */}
                             {/* End social share */}
-                          </div>
+                          {/* </div> */}
                           {/* End news share */}
                         </div>
                       </div>
@@ -169,7 +144,7 @@ const NewsTwo = () => {
                       className="main"
                       style={{
                         backgroundImage: `url(${
-                          process.env.PUBLIC_URL + "img/news/9.jpg"
+                          process.env.PUBLIC_URL + "img/news/canoe.jpg"
                         })`,
                       }}
                     ></div>
@@ -208,7 +183,7 @@ const NewsTwo = () => {
                               className="main"
                               style={{
                                 backgroundImage: `url(${
-                                  process.env.PUBLIC_URL + "img/news/9.jpg"
+                                  process.env.PUBLIC_URL + "img/news/canoe.jpg"
                                 })`,
                               }}
                             ></div>
@@ -226,20 +201,9 @@ const NewsTwo = () => {
                           {/* End details */}
                           <div className="description">
                             <p>
-                              As Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities. As
-                              Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities. As
-                              Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities.
+                            I've always found great satisfaction in the process of creating something from scratch. In 2015, I dedicated four months to the construction of a 15-foot Hiawatha canoe, meticulously crafting it from cedar and walnut. Progressing inch by inch each evening and weekend, I watched it evolve into a seaworthy vessel. The moment I finally placed it in the water and settled inside was undeniably one of the most gratifying experiences of my life.
                             </p>
-                            <blockquote>
+                            {/* <blockquote>
                               As Vintage decided to have a closer look into
                               fast-paced New York web design realm in person. As
                               Vintage decided to have a closer look into
@@ -250,32 +214,16 @@ const NewsTwo = () => {
                               fast-paced New York web design realm in person, we
                               get to acquaint with most diverse and
                               exceptionally captivating personalities.
-                            </blockquote>
+                            </blockquote> */}
                             <p>
-                              As Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities. We
-                              encounter professionals with careers to covet and
-                              lives to write books about. As Vintage decided to
-                              have a closer look into fast-paced New York web
-                              design realm in person, we get to acquaint with
-                              most diverse and exceptionally captivating
-                              personalities. As Vintage decided to have a closer
-                              look into fast-paced New York web design realm in
-                              person, we get to acquaint with most diverse and
-                              exceptionally captivating personalities. As
-                              Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities.
+                            Periodically, I incorporate a new craft or material into my life. In 2017, I taught myself to crochet, resulting in a vibrant, multicolored blanket large enough to comfortably cover a queen-sized bed. Then, in 2020, I delved into the world of drawing, an activity I now engage in regularly which I find quite therapeutic and relaxing.
                             </p>
                           </div>
                           {/* End description */}
-                          <div className="news_share">
-                            <Social />
+                          {/* <div className="news_share">
+                            <Social /> */}
                             {/* End social share */}
-                          </div>
+                          {/* </div> */}
                           {/* End news share */}
                         </div>
                       </div>
@@ -299,7 +247,7 @@ const NewsTwo = () => {
                       className="main"
                       style={{
                         backgroundImage: `url(${
-                          process.env.PUBLIC_URL + "img/news/8.jpg"
+                          process.env.PUBLIC_URL + "img/news/dad.jpg"
                         })`,
                       }}
                     ></div>
@@ -341,7 +289,7 @@ const NewsTwo = () => {
                               className="main"
                               style={{
                                 backgroundImage: `url(${
-                                  process.env.PUBLIC_URL + "img/news/8.jpg"
+                                  process.env.PUBLIC_URL + "img/news/dad.jpg"
                                 })`,
                               }}
                             ></div>
@@ -405,10 +353,10 @@ const NewsTwo = () => {
                             </p>
                           </div>
                           {/* END DESCRIPTION */}
-                          <div className="news_share">
-                            <Social />
+                          {/* <div className="news_share">
+                            <Social /> */}
                             {/* END SOCIAL SHARE */}
-                          </div>
+                          {/* </div> */}
                         </div>
                       </div>
                     </div>

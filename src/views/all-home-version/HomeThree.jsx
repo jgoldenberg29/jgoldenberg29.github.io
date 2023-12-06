@@ -43,7 +43,7 @@ const HomeThree = () => {
       </div>
       {/* End shane_tm_partners */}
 
-      <div className="shane_tm_section">
+      <div className="shane_tm_section" id="testimonials">
         <div className="shane_tm_testimonials">
           <div className="container">
             <div className="testimonials_inner">
