@@ -25,7 +25,7 @@ const NewsTwo = () => {
         <div className="container">
           <div className="shane_tm_title">
             <span>Personal</span>
-            <h3>The rest of me</h3>
+            <h3>More about Josh</h3>
           </div>
           {/* End shane_tm_title */}
           <div className="news_list">
@@ -307,20 +307,9 @@ const NewsTwo = () => {
                           {/* END DETAILS */}
                           <div className="description">
                             <p>
-                              As Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities. As
-                              Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities. As
-                              Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities.
+                              Becoming a dad was a truly life changing experience. It is the most fulfilling and the most challenging role I have ever undertaken. Parenthood has taught me a whole new level of patience and empathy. It also brings me endless joy. There is nothing I love more than goofing around with my little munchkin. She just makes the whole world melt away. My most treasured memories are just days spending hours running around with my wife and kiddo. They are my heart. 
                             </p>
-                            <blockquote>
+                            {/* <blockquote>
                               As Vintage decided to have a closer look into
                               fast-paced New York web design realm in person. As
                               Vintage decided to have a closer look into
@@ -331,25 +320,9 @@ const NewsTwo = () => {
                               fast-paced New York web design realm in person, we
                               get to acquaint with most diverse and
                               exceptionally captivating personalities.
-                            </blockquote>
+                            </blockquote> */}
                             <p>
-                              As Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities. We
-                              encounter professionals with careers to covet and
-                              lives to write books about. As Vintage decided to
-                              have a closer look into fast-paced New York web
-                              design realm in person, we get to acquaint with
-                              most diverse and exceptionally captivating
-                              personalities. As Vintage decided to have a closer
-                              look into fast-paced New York web design realm in
-                              person, we get to acquaint with most diverse and
-                              exceptionally captivating personalities. As
-                              Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities.
+
                             </p>
                           </div>
                           {/* END DESCRIPTION */}
