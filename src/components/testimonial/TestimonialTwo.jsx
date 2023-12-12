@@ -47,7 +47,7 @@ export default function TestimonialTwo() {
 
         <li className="item">
           <div className="texts">
-            <p style={{marginBottom: '5px'}}>
+            <p style={{marginBottom: '8px'}}>
             As a man who prides himself on being at least 15 minutes early to everything, punctuality is important to me. Meeting Josh for the first time, I was struck by the obvious conclusion that... one person out there makes it a point to be at least 16 minutes early to everything!! My hat is off!!
             </p>
             <p>
@@ -79,7 +79,7 @@ export default function TestimonialTwo() {
 
         <li className="item">
           <div className="texts">
-            <p style={{marginBottom: '5px'}}>
+            <p style={{marginBottom: '8px'}}>
             I had the big pleasure of working closely with Josh on a project, and I must say, he is an exceptionally focused and caring leader. Josh has an innate ability to push projects to highest levels, consistently delivering work of the utmost excellence. His attention to detail is unmatched, and I've had the privilege of witnessing his brilliant code solutions, earning my utmost admiration and respect.
             </p>
             <p>
