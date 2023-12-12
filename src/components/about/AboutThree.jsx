@@ -46,7 +46,7 @@ const AboutThree = () => {
                   <p>
                     {/* I can pick up and implement new concepts and skills quickly and easily. With a background in teaching and coaching, I excel at breaking down and illuminating complex concepts for others in a patient and empathetic manner. I take great pleasure in working on teams, supporting those around me and helping them thrive. */}
 
-                    My strong ability to swiftly grasp and apply new concepts is bolstered by my teaching and coaching background. This combination allows me to seamlessly transition between learning novel concepts myself and breaking down ideas for others in a patient and empathetic manner. Engaging in collaborative teamwork brings me immense satisfaction, and I excel in roles where I can contribute to supporting and empowering my colleagues, guiding them toward reaching their full potential while aspiring toward my own.
+                    My strong ability to swiftly grasp and apply new concepts is bolstered by my teaching and coaching background. This combination allows me to seamlessly transition between learning novel concepts myself and breaking down ideas for others in a patient and empathetic manner. Engaging in collaborative teamwork brings me immense satisfaction. I excel in roles where I can contribute to supporting and empowering my colleagues, enabling them to reach their full potential while aspiring toward my own.
                   </p>
                 </div>
                 <div
