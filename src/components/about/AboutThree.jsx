@@ -54,8 +54,8 @@ const AboutThree = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <a href="img/resume/resume.jpg" download>
-                    Download CV
+                  <a href="https://joshuagoldenbergresume.tiiny.site/" target="_blank">
+                    Download Resume
                   </a>
                 </div>
               </div>
