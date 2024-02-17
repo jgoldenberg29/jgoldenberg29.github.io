@@ -51,8 +51,8 @@ const About = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <a href="img/resume/resume.jpg" download>
-                    Download CV
+                  <a href="https://joshuagoldenbergresume.tiiny.site/" download>
+                    Download CVV
                   </a>
                 </div>
               </div>
