@@ -2,7 +2,7 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Gallery, Item } from "react-photoswipe-gallery";
 
-const tabList = ["All", "React", "Python/Flask"]; //add JavaScript/Express
+const tabList = ["All", "React", "Python/Flask", "Typescript/Node"]
 
 const tabListContent = [
   {
@@ -20,33 +20,13 @@ const tabListContent = [
         portfolioLink:
           "https://whipitup.onrender.com/",
       },
-      // {
-      //   img: "/img/portfolio/14.jpg",
-      //   title: "Soft Cream",
-      //   meta: "Photography",
-      //   portfolioLink:
-      //     "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
-      // },
-      // {
-      //   img: "/img/portfolio/22.jpg",
-      //   title: "Shane Design",
-      //   meta: "Design",
-      //   portfolioLink:
-      //     "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
-      // },
-      // {
-      //   img: "/img/portfolio/7.jpg",
-      //   title: " Sweet Cherry",
-      //   meta: "Photography",
-      //   portfolioLink:
-      //     "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-      // },
-      // {
-      //   img: "/img/portfolio/3.jpg",
-      //   title: "Behance Shoot",
-      //   meta: "Branding",
-      //   portfolioLink: "https://www.behance.net/ib-themes",
-      // },
+      {
+        img: "/img/portfolio/orderOnEat.jpg",
+        title: "Visit Site",
+        meta: "online ordering for farmers markets",
+        portfolioLink:
+          "https://orderoneat.org/",
+      }
     ],
   },
   {
@@ -81,26 +61,15 @@ const tabListContent = [
         portfolioLink:
           "https://whipitup.onrender.com/",
       },
-    ],
-  },
-  // {
-  //   porftoliItems: [
-  //     {
-  //       img: "/img/portfolio/7.jpg",
-  //       title: " Sweet Cherry",
-  //       meta: "Photography",
-  //       portfolioLink:
-  //         "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-  //     },
-  //     {
-  //       img: "/img/portfolio/15.jpg",
-  //       title: "Soft Cream",
-  //       meta: "Photography",
-  //       portfolioLink:
-  //         "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
-  //     },
-  //   ],
-  // },
+      {
+        img: "/img/portfolio/orderOnEat.jpg",
+        title: "Visit Site",
+        meta: "online ordering for farmers markets",
+        portfolioLink:
+          "https://orderoneat.org/",
+      }
+    ]
+  }
 ];
 
 const Portfolio = () => {
