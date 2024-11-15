@@ -60,7 +60,11 @@ const tabListContent = [
         meta: "Cooking",
         portfolioLink:
           "https://whipitup.onrender.com/",
-      },
+      }
+    ]
+  },
+  {
+    porftoliItems: [
       {
         img: "/img/portfolio/orderOnEat.jpg",
         title: "Visit Site",
@@ -68,8 +72,8 @@ const tabListContent = [
         portfolioLink:
           "https://orderoneat.org/",
       }
-    ]
-  }
+    ],
+  },
 ];
 
 const Portfolio = () => {
