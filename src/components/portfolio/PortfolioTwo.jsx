@@ -2,17 +2,11 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Gallery, Item } from "react-photoswipe-gallery";
 
-const tabList = ["All", "React", "Python/Flask", "Typescript/Node"]
+const tabList = ["All", "Typescript/Node", "Python/Flask", "React"]
 
 const tabListContent = [
   {
     porftoliItems: [
-      {
-        img: "/img/portfolio/moodify.jpg",
-        title: "Visit Site",
-        meta: "Music",
-        portfolioLink: "https://moodify-s91r.onrender.com/",
-      },
       {
         img: "/img/portfolio/whipitup.jpg",
         title: "Visit Site",
@@ -23,10 +17,16 @@ const tabListContent = [
       {
         img: "/img/portfolio/orderOnEat.jpg",
         title: "Visit Site",
-        meta: "online ordering for farmers markets",
+        meta: "ECommerce - Food",
         portfolioLink:
           "https://orderoneat.org/",
-      }
+      },
+      {
+        img: "/img/portfolio/moodify.jpg",
+        title: "Visit Site",
+        meta: "Music",
+        portfolioLink: "https://moodify-s91r.onrender.com/",
+      },
     ],
   },
   {
@@ -86,7 +86,7 @@ const Portfolio = () => {
               <div className="title_flex">
                 <div className="left">
                   <span>Portfolio</span>
-                  <h3>Project Portfolio</h3>
+                  <h3>Projects</h3>
                 </div>
               </div>
             </div>
@@ -119,7 +119,7 @@ const Portfolio = () => {
                                     original={val.img}
                                     thumbnail={val.img}
                                     width={1000}
-                                    height={1000}
+                                    height={800}
                                   >
                                     {({ ref, open }) => (
                                       <img
