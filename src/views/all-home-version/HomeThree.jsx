@@ -26,7 +26,7 @@ const HomeThree = () => {
       <Portfolio />
       {/* End Portfolio Section */}
 
-      <Skills />
+      {/* <Skills /> */}
       {/* End Skills Section */}
 
       {/* <Video /> */}

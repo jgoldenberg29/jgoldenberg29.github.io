@@ -25,43 +25,9 @@ const tabListContent = [
         img: "/img/portfolio/moodify.jpg",
         title: "Visit Site",
         meta: "Music",
-        portfolioLink: "https://moodify-s91r.onrender.com/",
+        portfolioLink: "https://moodify-e4j8.onrender.com/",
       },
     ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/moodify.jpg",
-        title: "Visit Site",
-        meta: "Music",
-        portfolioLink: "https://moodify-s91r.onrender.com/",
-      },
-      {
-        img: "/img/portfolio/whipitup.jpg",
-        title: "Visit Site",
-        meta: "Cooking",
-        portfolioLink:
-          "https://whipitup.onrender.com/",
-      },
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/moodify.jpg",
-        title: "Visit Site",
-        meta: "Music",
-        portfolioLink: "https://moodify-s91r.onrender.com/",
-      },
-      {
-        img: "/img/portfolio/whipitup.jpg",
-        title: "Visit Site",
-        meta: "Cooking",
-        portfolioLink:
-          "https://whipitup.onrender.com/",
-      }
-    ]
   },
   {
     porftoliItems: [
@@ -74,6 +40,48 @@ const tabListContent = [
       }
     ],
   },
+  {
+    porftoliItems: [
+      {
+        img: "/img/portfolio/moodify.jpg",
+        title: "Visit Site",
+        meta: "Music",
+        portfolioLink: "https://moodify-e4j8.onrender.com/",
+      },
+      {
+        img: "/img/portfolio/whipitup.jpg",
+        title: "Visit Site",
+        meta: "Cooking",
+        portfolioLink:
+          "https://whipitup.onrender.com/",
+      },
+    ],
+  },
+  {
+    porftoliItems: [
+      {
+        img: "/img/portfolio/moodify.jpg",
+        title: "Visit Site",
+        meta: "Music",
+        portfolioLink: "https://moodify-e4j8.onrender.com/",
+      },
+      {
+        img: "/img/portfolio/whipitup.jpg",
+        title: "Visit Site",
+        meta: "Cooking",
+        portfolioLink:
+          "https://whipitup.onrender.com/",
+      },
+      {
+        img: "/img/portfolio/orderOnEat.jpg",
+        title: "Visit Site",
+        meta: "online ordering for farmers markets",
+        portfolioLink:
+          "https://orderoneat.org/",
+      }
+    ]
+  },
+
 ];
 
 const Portfolio = () => {

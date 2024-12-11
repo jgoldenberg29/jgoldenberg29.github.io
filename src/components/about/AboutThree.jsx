@@ -31,7 +31,7 @@ const AboutThree = () => {
                   data-aos-duration="1200"
                 >
                   <span>About Me</span>
-                  <h3>Insatiable Software Engineer based in Philadelphia, PA</h3>
+                  <h3>Civic-minded Software Engineer based in Philadelphia, PA</h3>
                 </div>
                 <div
                   className="text"
@@ -46,7 +46,7 @@ const AboutThree = () => {
                   <p>
                     {/* I can pick up and implement new concepts and skills quickly and easily. With a background in teaching and coaching, I excel at breaking down and illuminating complex concepts for others in a patient and empathetic manner. I take great pleasure in working on teams, supporting those around me and helping them thrive. */}
 
-                    My strong ability to swiftly grasp and apply new concepts is bolstered by my teaching and coaching background. This combination allows me to seamlessly transition between learning novel concepts myself and breaking down ideas for others in a patient and empathetic manner. Engaging in collaborative teamwork brings me immense satisfaction. I excel in roles where I can contribute to supporting and empowering my colleagues, enabling them to reach their full potential while aspiring toward my own.
+                    My strong ability to swiftly grasp and apply new concepts is bolstered by my teaching and coaching background. This combination allows me to seamlessly transition between learning novel concepts myself and breaking down ideas for others in a patient and empathetic manner. Engaging in collaborative teamwork brings me immense joy. I excel in roles when I can lead with empathy and passion - both in supporting my teammates and in contributing to the mission of the organization. I do my best work when I feel confident the product I am building will make the world just a little bit better.
                   </p>
                 </div>
                 <div
